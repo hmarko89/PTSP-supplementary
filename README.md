@@ -1,4 +1,4 @@
-# Supplementary data for the PTSP anf the IPODS-MP
+# Supplementary data for the PTSP and the IPODS-MP
 Supplementary data for research on the PTSP and its extension, the IPODS-MP.
 
 ## Benchmark
@@ -39,7 +39,7 @@ Each customer-instance is given in JSON format as for the PTSP, where the first 
 
 Folder [```solutions/geismar```](./solutions/geismar/) contains solutions for the benchmark dataset of Geismar et al. (2008).
 - [```lacomme_et_al```](./solutions/geismar/lacomme_et_al/): solutions of Lacomme et al. (2018) obtained from [the webpage of the authors](https://perso.isima.fr/~lacomme/marina/Research/PTSP_Results.html).
-- [```horvath_vns```](./solutions/geismar/horvath_vns/): solutions of the variable neighborhood search of Horváth (2024).
+- [```horvath_vns```](./solutions/geismar/horvath_vns/): solutions obtained with the variable neighborhood search of Horváth (2024).
 - [```best_known```](./solutions/geismar/best_known/): best known solutions.
 
 File ```sol_i<instance>_Q<capacity>_B<lifespan>_r<production rate>.json``` refers to a solution for the corresponding instance ```(1,2,3,4,5,6)``` with the corresponding capacity ```(300,600)```, lifespan ```(300,600)```, and production rate ```(1,2,3)```.
@@ -55,7 +55,7 @@ For example:
 ### Solutions for the IPODS-MP
 
 Folder [```solutions/canatasagun```](./solutions/canatasagun/) contains solutions for the benchmark dataset of Can Atasagun, G., & Karaoğlan, İ. (2024).
-- [```horvath_vns```](./solutions/canatasagun/horvath_vns/): solutions of the variable neighborhood search of Horváth (2024).
+- [```horvath_vns```](./solutions/canatasagun/horvath_vns/): solutions obtained with the variable neighborhood search of Horváth (2024).
 
 File ```sol_dem<demand distribution>_loc<space distribution>_n<number of customers>_p<number of plants>_i<instance>_Q<capacity>_B<lifespan>_r<production rate>.json``` refers to a solution for instance ```instance_dem<demand distribution>_loc<space distribution>_n<number of customers>_p<number of plants>_i<instance>``` with the corresponding capacity ```(300,600)```, lifespan ```(300,600)```, and production rate ```(1,2,3)```.
 
@@ -74,10 +74,15 @@ For example:
 Functions in file [```evaluator.py```](./evaluator.py) can be used to evaluate solutions given in the form described above.
 
 ## References
+
 Geismar, H. N., Laporte, G., Lei, L., & Sriskandarajah, C. (2008). *The integrated production and transportation scheduling problem for a product with a short lifespan*. INFORMS Journal on Computing, 20(1), 21-33.
+[doi: 10.1287/ijoc.1060.0208](https://doi.org/10.1287/ijoc.1060.0208)
 
 Lacomme, P., Moukrim, A., Quilliot, A., & Vinot, M. (2018). *Supply chain optimisation with both production and transportation integration: multiple vehicles for a single perishable product*. International Journal of Production Research, 56(12), 4313-4336.
+[doi: 10.1080/00207543.2018.1431416](https://doi.org/10.1080/00207543.2018.1431416)
 
 Can Atasagun, G., & Karaoğlan, İ. (2024). *Solution approaches for the integrated production and outbound distribution scheduling problem with multiple plants and perishable items*. Expert Systems with Applications, 237, 121318.
+[doi: 10.1016/j.eswa.2023.121318](https://doi.org/10.1016/j.eswa.2023.121318)
 
-Horváth, M. (2024). *New computational results for integrated production and transportation problems for a product with a short lifespan*. Submitted article.
+Horváth, M. (2024). *New computational results for integrated production and transportation problems for a product with a short lifespan*. EURO Journal on Computational Optimization, 100095.
+[doi: 10.1016/j.ejco.2024.100095](https://doi.org/10.1016/j.ejco.2024.100095)
