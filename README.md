@@ -1,5 +1,11 @@
 # Supplementary data for the PTSP and the IPODS-MP
+
 Supplementary data for research on the PTSP and its extension, the IPODS-MP.
+
+> Horváth, M. (2024).
+**New computational results for integrated production and transportation problems for a product with a short lifespan**.
+EURO Journal on Computational Optimization, 12, 100095.
+[doi: 10.1016/j.ejco.2024.100095](https://doi.org/10.1016/j.ejco.2024.100095)
 
 ## Benchmark
 
@@ -75,14 +81,22 @@ Functions in file [```evaluator.py```](./evaluator.py) can be used to evaluate s
 
 ## References
 
-Geismar, H. N., Laporte, G., Lei, L., & Sriskandarajah, C. (2008). *The integrated production and transportation scheduling problem for a product with a short lifespan*. INFORMS Journal on Computing, 20(1), 21-33.
+Geismar, H. N., Laporte, G., Lei, L., & Sriskandarajah, C. (2008).
+**The integrated production and transportation scheduling problem for a product with a short lifespan**.
+INFORMS Journal on Computing, 20(1), 21-33.
 [doi: 10.1287/ijoc.1060.0208](https://doi.org/10.1287/ijoc.1060.0208)
 
-Lacomme, P., Moukrim, A., Quilliot, A., & Vinot, M. (2018). *Supply chain optimisation with both production and transportation integration: multiple vehicles for a single perishable product*. International Journal of Production Research, 56(12), 4313-4336.
+Lacomme, P., Moukrim, A., Quilliot, A., & Vinot, M. (2018).
+**Supply chain optimisation with both production and transportation integration: multiple vehicles for a single perishable product**.
+International Journal of Production Research, 56(12), 4313-4336.
 [doi: 10.1080/00207543.2018.1431416](https://doi.org/10.1080/00207543.2018.1431416)
 
-Can Atasagun, G., & Karaoğlan, İ. (2024). *Solution approaches for the integrated production and outbound distribution scheduling problem with multiple plants and perishable items*. Expert Systems with Applications, 237, 121318.
+Can Atasagun, G., & Karaoğlan, İ. (2024).
+**Solution approaches for the integrated production and outbound distribution scheduling problem with multiple plants and perishable items**.
+Expert Systems with Applications, 237, 121318.
 [doi: 10.1016/j.eswa.2023.121318](https://doi.org/10.1016/j.eswa.2023.121318)
 
-Horváth, M. (2024). *New computational results for integrated production and transportation problems for a product with a short lifespan*. EURO Journal on Computational Optimization, 100095.
+Horváth, M. (2024).
+**New computational results for integrated production and transportation problems for a product with a short lifespan**.
+EURO Journal on Computational Optimization, 12, 100095.
 [doi: 10.1016/j.ejco.2024.100095](https://doi.org/10.1016/j.ejco.2024.100095)
